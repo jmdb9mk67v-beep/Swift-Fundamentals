@@ -1,13 +1,12 @@
 import UIKit
 
-var greeting = "Hello, Mr. Michael"
+var greeting = "Hello, World"
 print(greeting)
-var goodbye = "Goodbye! See you in class!"
+var goodbye = "Goodbye! See you next time!"
 // To convert Celsius to Fahrenheit we use this simple math calculation
 // Multiply by 9, Divide by 5, Add 32
 
-// OR we can multiply the Celsius by 1.8 and add 32 but since Mr. Michael
-// did not ask for doubles, we will stick with integers.
+// OR we can multiply the Celsius by 1.8 and add 32 
 
 
 /* function convertCelciusToFahrenheit */
@@ -74,22 +73,6 @@ analyzeTemperatures(from: 4, to: 25)
 print(goodbye)
 
 
-/********* AI Reflection **********/
 
-
-/*
- 
- 1. a)  I used AI as reference.
-    b)  I asked AI "in my first function block of code where do i insert °F to have it print" and it gave me 2 options. "In the print statement" or "inside the function return"
-    c)  I learned that instead of using an "if/else statement", I could use a "guard statement".  Even though it is fancier, I stuck with if/else.
- 
- 2. a)  I ran into a red line "invalid redeclation" error because I            duplicated my typeTemperature function in the last block of code       "analyzeTemperature function". So I had AI help me troubleshoot        it.
-    b)  I used string interpolation \() to add the °F symbol in the print statement rather than changing the function to keep the math clean.
-        And it looks better.
-
- 3. a)  I learned to use integers to doubles like Double(totalSum) /           Double(totalValues) to avoid interger division traps.
-    b)  Mapping out the logic with closed ranges (...) went well.  I learned that Swift will not execute if I have duplicates in the same file.
- 
-*/
  
 
